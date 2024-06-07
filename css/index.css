@@ -1,0 +1,76 @@
+html {
+  font-family: "Helvetica Neue",sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  background-color: white;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+
+form {
+    background-color:rgb(205, 159, 205) ;
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 30px;
+  }
+
+.form-control {
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.form-control label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+
+
+.form-control input,
+.form-control select,
+.form-control textarea {
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 10px;
+  width: 95%;
+}
+
+.form-control input[type="radio"],
+.form-control input[type="checkbox"] {
+  display: inline-block;
+  width: auto;
+}
